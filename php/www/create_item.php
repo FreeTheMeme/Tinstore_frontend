@@ -17,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <title>Add Item</title>
 <h2>Add Item</h2>
 
-<form action="http://fedora.tail4b8243.ts.net:5000/items" method="POST">
+<form action="http://tinstore.tail4b8243.ts.net:5002/items" method="POST">
 
   <label for="name">name:</label><br>
   <input type="text" id="name" name="name" value="name"><br>
@@ -25,7 +25,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <label for="barcode">barcode:</label><br>
   <input type="text" id="barcode" name="barcode" value="12345"><br>
   
-  <label for="notes">notes:</label><br>
+  <label for="notes">Value:</label><br>
   <input type="text" id="value" name="value" value="20"><br><br>
   
   <input type="submit" value="Submit">

@@ -1,9 +1,5 @@
 <?php
-$output = "";
-
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-	$output = print_r($_POST,true);
-}
+require_once('classes/navbar.php')
 ?>
 
 <!DOCTYPE html>
